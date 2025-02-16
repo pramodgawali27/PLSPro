@@ -1,0 +1,45 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Ignore environment folders
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Streamlit logs and cache
+.streamlit/
+logs/
+cache/
+.history/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore dependencies
+*.log
+requirements.txt.lock
+Pipfile.lock
+
+# Ignore uploaded files and temporary data
+uploads/
+data/
+*.sqlite3
+*.db
+
+# Ignore Docker files (if applicable)
+.dockerignore
+Dockerfile
